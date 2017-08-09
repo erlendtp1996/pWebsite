@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>tpe.com</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		.container-fluid {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			margin-top: 50px;
+		}
+		
+		body {
+			background: url("images/backgrounds/footer_lodyas.png") repeat 0 0;
+			color: white;
+		}
+		
+		table {
+			width: 100%;
+			font-size: 25px;
+		}
+		
+		img {
+			image-orientation: 0deg;
+		}
+		
+		.tpe-0 {
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+		
+		.tpe-1 {
+			margin-top: 0px;
+			background-color: #1abc9c;
+			background: url("images/backgrounds/green_dust_scratch.png") repeat 0 0;
+			color: white;
+			border-radius: 5px;
+		}
+		
+		.tpe-2 {
+			background-color: black;
+			border-radius: 5px;
+		}
+		
+		.tpe-3 {
+			background-color: #1abc9c;
+			background: url("images/backgrounds/green_dust_scratch.png") repeat 0 0;
+
+			color: black;
+			border-radius: 5px;
+			font-size: 25px;
+		}
+		
+		.tpe-4 {
+			background-color: black;
+			border-radius: 5px;
+		}
+		
+		.tpe-5 {
+			padding-top: 5%;
+			padding-bottom: 5%;
+			border-radius: 5px;
+		}
+		
+		.tpe-6 {
+			background-color: white;
+			border-radius: 5px;
+		}
+		
+		footer {
+		}
+		
+		#contact_list > li {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+	</style>
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<div class="container-fluid">
+		<!-- Header -->
+		<div id="header" class="page-header text-center">
+			<h1 id="greeting" style="font-size: 500%">Welcome!</h1>
+		</div><!-- END OF HEADER -->
+		
+		<script src="js/add-content/alter-header.js"></script>
+		
+		<!-- Navigation bar, first container -->
+		<div id="naviagation" class="container-fluid tpe-0 text-center">
+			<nav class="navbar navbar-inverse bg-inverse">
+				<ul id="nav_list" class="nav navbar-nav list-inline">
+					<li><a href="#about" >ABOUT ME</a></li>
+					<li><a href="#exp" >EXPERIENCE</a></li>
+					<li><a href="#connect" >CONNECT</a></li>
+				</ul>
+			</nav>
+		</div><!-- END OF NAVIGATION -->
+		
+		<!-- Headshot, second container -->
+		<div id="headshot" class="container-fluid tpe-1 text-center">
+			<img src="images/me/ironThrone.jpg" class="img-circle" alt="Iron Throne Photo" width="350" height="470">
+		</div><!-- END OF HEADSHOT -->
+		
+		<!-- Quote, third container -->
+		<div id="qutoe" class="container-fluid tpe-2 text-center">
+			<blockquote class="blockquote-reverse" style="text-align: center;">
+				<p>It does not matter how slowly you go so long as you do not stop.</p>
+				<footer><cite title="Source Quote">Confucius</cite></footer>
+			</blockquote>
+		</div><!-- END OF QUOTE -->
+		
+		<!-- About me, fourth container-->
+		<div id="about" class="container-fluid tpe-3 text-center">
+			<p>My name is <strong>Thomas Erlendson</strong> and I am 21 years old. I am expecting to graduate James Madison University
+			in 2018 with a <strong>bacelor's degree in computer science</strong> and a minor in telecommunications.
+			Currently, I am striving to develop my software engineering and website development skills.</p>
+			<div style="width: 25%; margin-left: auto; margin-right: auto; padding-bottom: 40px; padding-top: 40px;">
+				<ul style="text-align: left;">
+					<li>James Madison Duke</li>
+					<li>Aspiring scratch golfer</li>
+					<li><i>Game of Thrones</i> enthusiast</li>	
+					<li>Amateur photographer</li>
+				</ul>
+			</div>
+			<p></p>
+		</div><!-- END OF ABOUT ME -->
+		
+		<!-- Slideshow, fifth container -->
+		<div id="slideshows" class="container-fluid tpe-4 text-center">
+			<img src="images/golf/1757holetall.jpg" alt="1757 Golf Club hole" width="350" height="470" >
+			<img src="images/golf/packsadle.jpg" alt="Packsadle Ridge Golf Course" width="350" height="470">
+			<img src="images/scenic/oceandrive.jpg" alt="Newport" width="350" height="470">
+			<img src="images/scenic/turks.jpg" alt="Crossing Palms Villa" width="350" height="470">
+
+		</div><!-- END OF SLIDESHOW -->
+		
+		<!-- Experience, sixth container -->
+		<div id="exp" class="container-fluid tpe-5 text-left">
+			<div id="expheader" class="page-header text-center">
+				<h2 style="font-size: 400%">Experience</h2>
+			</div>
+			<table class="table">
+				<thead class="thead-default">
+					<tr>
+						<th></th>
+						<th scope="col">Course:</th>
+						<th scope="col">Description:</th>
+						<th scope="col">Year:</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" rowspan="3">Relative Course Work:</th>
+						<td>Web Based Design and Application</td>
+						<td>Learned about web-based architecure and cloud services</td>
+						<td>Fall 2016</td>
+					</tr>
+					<tr>
+						<td>Data Structures and Algorithms</td>
+						<td>Studied and implemented basic data structures and algorithms</td>
+						<td>Fall 2015</td>
+					</tr>
+					<tr>
+						<td>Software Engineering</td>
+						<td>Surveyed the field of software engineering</td>
+						<td>Fall 2015</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table">
+				<thead class="thead-default">
+					<tr>
+						<th></th>
+						<th scope="col">Titile:</th>
+						<th scope="col">Description:</th>
+						<th scope="col">Year:</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" rowspan="3">Previous Employment: </th>
+						<td>Wegmans Food Markets, Inc. </td>
+						<td>Prepared Food Customer Service</td>
+						<td>August 2013 - Present</td>
+					</tr>
+					<tr>
+						<td>DC Mosquito Squad</td>
+						<td>Bucket Man</td>
+						<td>August 2017</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- END OF EXPERIENCE -->
+		
+		<!-- Connect, seventh container, footer -->
+		<footer id="connect" class="container-fluid tpe-6 text-center" style="background-color: white;">
+				<ul id="contact_list" class="list-inline">
+					<li><a href="mailto:erlendtp@dukes.jmu.edu" ><img src="images/logos/emailLogo.png" class="logo" alt="Email Logo" width="95" height="100"/></a></li>
+					<li><a target="_blank" href="https://github.com/search?utf8=%E2%9C%93&q=user%3Aerlendtp1996&type=" ><img src="images/logos/githubLogo.jpg" class="logo" alt="github Logo" width="95" height="100"/></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/thomas-erlendson-77b732137" ><img src="images/logos/linkedinLogo.png" class="logo" alt="linkedin Logo" width="95" height="100"/></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/search/top/?q=thomas%20erlendson" ><img src="images/logos/facebookLogo.png" class="logo" alt="Facebook Logo" width="95" height="100"/></a></li>
+				</ul>
+		</footer><!-- END OF FOOTER -->
+	</div>
+  </body>
+</html>
