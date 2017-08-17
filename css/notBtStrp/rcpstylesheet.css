@@ -1,0 +1,42 @@
+'
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
+
+
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#container { 
+	margin: 0 auto;
+	width: 7500px;
+}
+
+#header {
+	background-color: #f7f2d9;
+	padding: 10px;
+	height: 150px;
+	max-height: 150px;
+	
+}
+
+#sideNav {
+	background-color: #1f52a5;
+	float: left;
+	/*position: sticky;
+	top: 150px;*/
+	padding: 5px;
+	margin: 5px;
+	max-height: 500px;
+	height: 500px;
+}
+
+#content { 
+	padding: 5px;
+	margin: 5px;
+	width: 500px;
+	float: left;
+}
+
+#footer {
+	float: inline-end;
+}
