@@ -1,18 +1,55 @@
 body {
 	width: 960px;
 	margin: 0 auto;
+	background: url("../../images/backgrounds/restaurant_icons.png") repeat 0 0;
+}
+
+#header {
+	/*background: url("../../images/backgrounds/headerBackground.png") repeat;
+	background-size: cover;*/
+}
+
+#headingbox {
+	height: auto;
+}
+
+#title {
+	background-image: url("../../images/logos/recipesLogo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	opacity: .7;
+	
+	width: 400px;
+	height: 200px;
+	text-indent: -9999px; /* pushes text off screen */
+	float: left;
+	
+	margin: 20px;
+}
+
+#slogan {
+	float: left;
+	width: 400px;
+	margin: 20px;
+	
+	font-size: 250%;
+	text-align: center;
+	vertical-align: middle;
+	font-style: oblique;
+	padding-bottom: auto;
+	padding-top: auto;
 }
 
 #nav {
-	background-color: #efefef;
 	padding: 10px;
 	margin: 10px;
+	clear: both;
 }
 
 #content {
 	overflow: auto;
 	height: 100%;	
-	
 }
 
 /* CSS FOR INDIVIDUAL RECIPIE PREVIEWS */
@@ -23,20 +60,23 @@ body {
 	max-width: 300px;
 	margin: 10px;
 
-	background-color: #efefef;
+	background-color: rgba(204, 204, 204, 0.3);
 	border-top: 1px solid black;
 	height: 500px;
+	max-height: 500px;
 }
 
 .dishName {
 	text-align: center;
 	height: 50px;
+	max-height: 50px;
 }
 
 .dishDesc{
 	padding: 3px;
 	margin: 5px;
 	height: 75px;
+	max-height: 75px;
 }
 
 .dishPrev {
@@ -49,4 +89,5 @@ body {
 
 .actions {
 	height: 100px;
+	max-height: 100px;
 }
