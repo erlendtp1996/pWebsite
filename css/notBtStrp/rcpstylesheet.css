@@ -4,27 +4,28 @@ body {
 	background: url("../../images/backgrounds/restaurant_icons.png") repeat 0 0;
 }
 
+h3{
+	font-family: Comic Sans MS;
+}
+
 #header {
-	/*background: url("../../images/backgrounds/headerBackground.png") repeat;
-	background-size: cover;*/
+
 }
 
 #headingbox {
-	height: auto;
-}
-
-#title {
-	background-image: url("../../images/logos/recipesLogo.png");
+	height: 475px; 
+	background-image: url("../../images/logos/headerLogo.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	border-radius: 10%;
 	opacity: .7;
-	
+}
+
+#title {	
 	width: 400px;
 	height: 200px;
 	text-indent: -9999px; /* pushes text off screen */
 	float: left;
-	
 	margin: 20px;
 }
 
@@ -42,9 +43,25 @@ body {
 }
 
 #nav {
-	padding: 10px;
-	margin: 10px;
 	clear: both;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mainnav {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+
+}
+
+.mainnav li {
+	display: inline-block;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #content {
@@ -64,6 +81,7 @@ body {
 	border-top: 1px solid black;
 	height: 500px;
 	max-height: 500px;
+	
 }
 
 .dishName {
@@ -87,7 +105,15 @@ body {
 	max-width: 200px;
 }
 
-.actions {
+.actionBox {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	height: 100px;
 	max-height: 100px;
+}
+
+.actions {
+	list-style-type: none;
+
 }
